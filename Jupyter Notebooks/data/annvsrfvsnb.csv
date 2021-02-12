@@ -1,0 +1,4 @@
+﻿Algorithm,Accuracy %
+ANN,99.8
+Random Forest classifier,99.86
+Naïve Bayes,64.75

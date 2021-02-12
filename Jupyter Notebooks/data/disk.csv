@@ -1,0 +1,4 @@
+﻿Big Data Storage Comparison  (1.2 GB Bitcoin Transaction Data),Write to disk,Read to disk
+Parquet (multi-threaded),49.5127,70.133
+Feather (multi-threaded),56.2501,78.925
+Pickle,49.813,13.8363

@@ -1,0 +1,27 @@
+MPI Classification Algorithm (1.2 GB Bitcoin Transaction Data),Time (sec),Time (sec),Serial Classification Algorithm  (1.2 GB Data)
+Distributed Memory Ridge,23,n/a,Serial Ridge
+Distributed Memory Random Forest ,91.99,n/a,Serial Random Forest
+Distributed Memory Linear Discriminant Analysis,30.31,n/a,Serial Linear Discriminant Analysis
+Distributed Memory Gaussian Naive Bayes Class,16.46,n/a,Serial Gaussian Naive Bayes
+Final Accuracy (Stacked Vote),99.84%,99.84%,Final Accuracy (Stacked Vote)
+Total Time (4 Node MPI),189.28,660.22,Total Time (Single Node 1 CPU)
+,,,
+Big Data Storage Comparison  (1.2 GB Bitcoin Transaction Data),Write to disk,Read to disk,Filesize (mb)
+Parquet (multi-threaded),49.5127,70.133,725.7
+Feather (multi-threaded),56.2501,78.925,823.6
+Pickle,49.813,13.8363,2100
+,,,
+Big Data Compression Comparison  (2.3 GB Bitcoin Transaction Data Pickled),Compressed Size (mb),,
+.7z,519.3,,
+.ar,2300,,
+.bz2,520.2,,
+.cbz,606,,
+cpio,2300,,
+.crx,606,,
+.ear,606,,
+.gz,606,,
+.lz4,931,,
+.tar.gz,606.3,,
+.zip,606,,
+.lzma,519.3,,
+.tar.Z,679.2,,

@@ -1,0 +1,7 @@
+﻿MPI Classification Algorithm (1.2 GB Data),Time (sec),Time (sec),Serial Classification Algorithm  (1.2 GB Data)
+Distributed Memory Ridge,23.00,n/a,Serial Ridge
+Distributed Memory Random Forest ,91.99,n/a,Serial Random Forest
+Distributed Memory Linear Discriminant Analysis,30.31,n/a,Serial Linear Discriminant Analysis
+Distributed Memory Gaussian Naive Bayes Class,16.46,n/a,Serial Gaussian Naive Bayes
+Final Accuracy (Stacked Vote),1.00,99.84%,Final Accuracy (Stacked Vote)
+Total Time (4 Node MPI),189.28,660.22,Total Time (Single Node 1 CPU)
